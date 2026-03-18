@@ -22,6 +22,8 @@
 
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
 }
 
 html {
@@ -64,6 +66,14 @@ a[href]:active {
 
 .section-header {
     text-align: var(--section-header-align);
+}
+
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 .section-tagline {
